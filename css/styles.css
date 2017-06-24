@@ -1,0 +1,34 @@
+.jumbotron {
+  text-align: center;
+  background-color: #1C7362;
+}
+
+.panel {
+  background-color: #D0D3D4;
+}
+
+.panel-title {
+  color: #1A5276;
+  font-weight: bold;
+}
+
+h3 {
+ color: #F5B041;
+}
+
+h4 {
+  color: #E74C3C;
+  font-style: oblique;
+  font-weight: 400;
+}
+
+h5 {
+  color: #512E5F;
+  font-weight: 200;
+
+}
+
+h6 {
+  color: #784212;
+  font-weight: 100;
+}
