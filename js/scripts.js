@@ -1,26 +1,26 @@
+//business logic
 var userNumber = function(myNumber){
-// var num = 1
-  for (var i=userNumber; i<=userNumber; i++)
-    if (userNumber % 3 === 0) {
+  for (var i=myNumber; i<=myNumber; i++)
+    if (myNumber % 3 === 0) {
       return "Ping";
     }
-    else if (userNumber % 5 === 0) {
+    else if (myNumber % 5 === 0) {
       return "Pong";
     }
-    else if (userNumber % 15 === 0) {
+    else if (myNumber % 15 === 0) {
       return "PingPong";
     }
     else {
-      return ("Invalid");
+      return (myNumber);
     }
-//  }
 };
 
-$(document).ready(function(){
+//user interface logic
+$(document).ready(function() {
   $("form#pingpong").submit(function(event) {
     event.preventDefault();
     var myNumber = parseInt($("input#myNumber").val());
-    var result = userNumber (myNumber);
+    var result = userNumber(myNumber);
     $('#result').text(myNumber);
   });
 });

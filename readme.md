@@ -1,19 +1,14 @@
 # PingPong
 -----
+#### by Iroveena Pagsibigan {June 24, 2017}
+----
+## Description
+
 A web application that takes a number from a user and returns a range of numbers from 1 to the chosen number with the following exceptions:
 
 Numbers divisible by 3 are replaced with "ping"
 Numbers divisible by 5 are replaced with "pong"
 Numbers divisible by 15 are replaced with "pingpong"
-
-#### {June 24, 2017}
-----
-##### By Iroveena Pagsibigan
-
-## Description
-
-This site has JavaScript business logic and user interface logic separated.
-Variable names are descriptive and use lower camel case.
 
 ## SPECIFICATIONS
 
@@ -36,7 +31,8 @@ It can count from 1 up to the inputted number but changing some numbers to ping,
 
 ## Known Bugs
 
-
+Only displays what the user input
+It wont let the user input numbers multiple times
 
 ## Technologies Used
 
