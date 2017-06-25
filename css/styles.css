@@ -32,3 +32,8 @@ h6 {
   color: #784212;
   font-weight: 100;
 }
+
+.instructions {
+  font-stretch: extra-expanded;
+  color: #1A5276;
+}
