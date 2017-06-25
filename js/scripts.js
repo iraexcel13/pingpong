@@ -2,13 +2,13 @@ var userNumber = function(myNumber){
 // var num = 1
   for (var i=userNumber; i<=userNumber; i++)
     if (userNumber % 3 === 0) {
-      return ("Ping");
+      return "Ping";
     }
     else if (userNumber % 5 === 0) {
-      return ("Pong");
+      return "Pong";
     }
     else if (userNumber % 15 === 0) {
-      return ("PingPong");
+      return "PingPong";
     }
     else {
       return ("Invalid");
@@ -21,6 +21,6 @@ $(document).ready(function(){
     event.preventDefault();
     var myNumber = parseInt($("input#myNumber").val());
     var result = userNumber (myNumber);
-    $('.myNumber').text(myNumber);
+    $('#result').text(myNumber);
   });
 });
