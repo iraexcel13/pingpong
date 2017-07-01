@@ -41,3 +41,8 @@ h6 {
   font-stretch: extra-expanded;
   color: #1A5276;
 }
+
+.sidecolumn {
+  height: 100vh;
+  background-color: #D0D3D4;
+}
