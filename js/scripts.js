@@ -23,7 +23,6 @@ $(document).ready(function() {
   $("form#pingpong").submit(function(event) {
     event.preventDefault();
     var myNumber = parseInt($("input#myNumber").val());
-    var result = userNumber(myNumber);
-    $('#result').text(myNumber);
+    userNumber(myNumber);
   });
 });
