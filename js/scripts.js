@@ -1,19 +1,22 @@
 //business logic
 var userNumber = function(myNumber){
-  for (var i=myNumber; i<=myNumber; i++)
-    if (myNumber % 3 === 0) {
-      return "Ping";
+  for (var i=1; i<=myNumber; i++){
+
+    if (i % 15 === 0) {
+      var number = "PingPong";
     }
-    else if (myNumber % 5 === 0) {
-      return "Pong";
+    else if (i % 5 === 0) {
+      var number = "Pong";
     }
-    else if (myNumber % 15 === 0) {
-      return "PingPong";
+    else if (i % 3 === 0) {
+      var number = "Ping"
     }
     else {
-      return (myNumber);
+      var number = i;
     }
-};
+    $("#result").append("<li>" + number + "</li>");
+  }
+}
 
 //user interface logic
 $(document).ready(function() {
